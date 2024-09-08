@@ -6,6 +6,7 @@ public class Enemy : MonoBehaviour
 {
     public int damageAmount = 10;
     public float bounceForce = 5f; // Adjust this value to control the bounce strength
+    
 
     private void OnCollisionEnter(Collision collision)
     {
