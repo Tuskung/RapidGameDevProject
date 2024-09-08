@@ -31,6 +31,8 @@ public class Enemy : MonoBehaviour
             {
                 Debug.Log("Fence script not found on: " + collision.gameObject.name);
             }
+
+            
         }
     }
 }
